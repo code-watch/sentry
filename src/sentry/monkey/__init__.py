@@ -1,5 +1,7 @@
 from __future__ import absolute_import
 
+from .pickle import patch_pickle_loaders
+
 
 def register_scheme(name):
     try:
@@ -84,5 +86,5 @@ def patch_django_views_debug():
     debug.get_safe_settings = lambda: {}
 
 
-for patch in (patch_parse_cookie, patch_httprequest_repr, patch_django_views_debug):
+for patch in (patch_parse_cookie, patch_httprequest_repr, patch_django_views_debug, patch_pickle_loaders):
     patch()
