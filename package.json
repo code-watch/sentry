@@ -94,7 +94,7 @@
     "mobx-react": "~7.1.0",
     "moment": "2.29.1",
     "moment-timezone": "0.5.33",
-    "papaparse": "^5.2.0",
+    "papaparse": "^5.3.0",
     "platformicons": "^4.2.0",
     "po-catalog-loader": "2.0.0",
     "prism-sentry": "^1.0.2",
