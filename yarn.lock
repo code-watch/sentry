@@ -4401,10 +4401,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-mentions@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@types/react-mentions/-/react-mentions-4.1.2.tgz#00d29feb42ec69566495efb8a6ea08b443ef8af8"
-  integrity sha512-71I9/pkz7u7SwpZdF2dL744p7GnukOsHf10wKG8ahxPkU2kM8EnU7DrIdsjbD95ins35o6S3CUe/+KblXc8Kyg==
+"@types/react-mentions@4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@types/react-mentions/-/react-mentions-4.1.6.tgz#0ecdb61785c22edbf9c7d6718505d4814ad3a65c"
+  integrity sha512-f4/BdnjlMxT47q+WqlcYYwFABbBMVQrDoFFeMeljtFC5nnR9/x8TOFmN18BJKgNuWMgivy9uE5EKtsjlay751w==
   dependencies:
     "@types/react" "*"
 
