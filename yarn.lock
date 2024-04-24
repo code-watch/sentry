@@ -2929,10 +2929,10 @@
     "@sentry/types" "7.111.0"
     "@sentry/utils" "7.111.0"
 
-"@sentry/profiling-node@^7.109.0":
-  version "7.109.0"
-  resolved "https://registry.yarnpkg.com/@sentry/profiling-node/-/profiling-node-7.109.0.tgz#fb34be1ec533b20ae37b7306a25b0fec1dccafbd"
-  integrity sha512-wdDxJ86/A71QTpbbn4LaiB6vmvGd3QEq7UOdZS/y/3SwV66zpkvNB8yPER41BgqDjqcmIY/va9fNi319iTREFw==
+"@sentry/profiling-node@^7.112.2":
+  version "7.112.2"
+  resolved "https://registry.yarnpkg.com/@sentry/profiling-node/-/profiling-node-7.112.2.tgz#aca3c5f63850ee9314fa06c31220f1c8f1293dfb"
+  integrity sha512-qCLJjQHW5mkDuh12MuqVVZfhdC20pJ4Vlmo/VO8orsDCcdVxDyO2N5SSe54epcBtuzUYOBsjomXyGiXw8sd2dA==
   dependencies:
     detect-libc "^2.0.2"
     node-abi "^3.52.0"
