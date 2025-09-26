@@ -210,7 +210,7 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-sentry": "^2.10.0",
-    "eslint-plugin-testing-library": "^7.1.1",
+    "eslint-plugin-testing-library": "^7.10.0",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "eslint-plugin-unicorn": "^57.0.0",
     "eslint-plugin-react-you-might-not-need-an-effect": "0.5.3",
