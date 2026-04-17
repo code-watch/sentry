@@ -282,7 +282,7 @@
     "playwright": "^1.58.2",
     "postcss-styled-syntax": "0.7.0",
     "react-refresh": "0.18.0",
-    "stylelint": "16.10.0",
+    "stylelint": "16.26.1",
     "stylelint-config-recommended": "^14.0.1",
     "terser": "5.40.0",
     "tinyglobby": "0.2.16",
