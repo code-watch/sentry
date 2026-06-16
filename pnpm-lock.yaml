@@ -708,8 +708,8 @@ importers:
         specifier: ^0.41.0
         version: 0.41.0
       playwright:
-        specifier: ^1.58.2
-        version: 1.58.2
+        specifier: ^1.61.0
+        version: 1.61.0
       postcss-styled-syntax:
         specifier: 0.7.0
         version: 0.7.0(postcss@8.5.3)
@@ -7434,13 +7434,13 @@ packages:
     peerDependencies:
       react: '*'
 
-  playwright-core@1.58.2:
-    resolution: {integrity: sha512-yZkEtftgwS8CsfYo7nm0KE8jsvm6i/PTgVtB8DL726wNf6H2IMsDuxCpJj59KDaxCtSnrWan2AeDqM7JBaultg==}
+  playwright-core@1.61.0:
+    resolution: {integrity: sha512-caX7TrY3Ml6egyDX0WUcTHDxodl/b51y5wJOdCEA36QviK/s2g081hvmGs8eaE3DWb6NYZQ6BjO/QkNRPenoPA==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.58.2:
-    resolution: {integrity: sha512-vA30H8Nvkq/cPBnNw4Q8TWz1EJyqgpuinBcHET0YVJVFldr8JDNiU9LaWAE1KqSkRYazuaBhTpB5ZzShOezQ6A==}
+  playwright@1.61.0:
+    resolution: {integrity: sha512-Z+7BeeqQPRRzklHsVFP4KTGIyMxKUmfeRA4WisM6G3/XW6nwGeX6fX9qYaDa+CiUqpOkb2f6X3nar05R3kSuJQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -17131,11 +17131,11 @@ snapshots:
       '@types/react': 19.2.1
       react: 19.2.3
 
-  playwright-core@1.58.2: {}
+  playwright-core@1.61.0: {}
 
-  playwright@1.58.2:
+  playwright@1.61.0:
     dependencies:
-      playwright-core: 1.58.2
+      playwright-core: 1.61.0
     optionalDependencies:
       fsevents: 2.3.2
 
