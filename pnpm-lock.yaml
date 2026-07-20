@@ -167,7 +167,7 @@ importers:
         version: 1.23.2
       '@rsdoctor/rspack-plugin':
         specifier: 1.5.18
-        version: 1.5.18(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(@rspack/core@2.1.3)
+        version: 1.5.18(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@rspack/core@2.1.3)
       '@rspack/cli':
         specifier: 2.1.3
         version: 2.1.3(@rspack/core@2.1.3)(@rspack/dev-server@2.1.0(@rspack/core@2.1.3)(selfsigned@5.5.0))
@@ -677,8 +677,8 @@ importers:
         specifier: 3.3.4
         version: 3.3.4(@jest/globals@30.4.1)
       knip:
-        specifier: 6.24.0
-        version: 6.24.0
+        specifier: 6.27.0
+        version: 6.27.0
       odiff-bin:
         specifier: 4.3.8
         version: 4.3.8
@@ -1181,6 +1181,9 @@ packages:
   '@emnapi/core@1.11.1':
     resolution: {integrity: sha512-RSvbQmHzdKzNsLYa/wHrbc3KN4sYLKAdPZxqiM2HATqv/SBk2/ENSHpvXGaLOMcsAyz0poEGqkmmKYG3OWiJEQ==}
 
+  '@emnapi/core@1.11.2':
+    resolution: {integrity: sha512-TC8MkTuZUtcTSiFeuC0ksCh9QIJ5+F21MvZ4Wn4ORfYaFJ/0dsiudv5tVkejgwZlwQ39jL9WWDe2lz8x0WglOA==}
+
   '@emnapi/runtime@1.10.0':
     resolution: {integrity: sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==}
 
@@ -1189,6 +1192,9 @@ packages:
 
   '@emnapi/runtime@1.11.1':
     resolution: {integrity: sha512-vgj7R3y3Wgx24IQaGPA/R6YFXLHVMOZ0uVEyIQPaWs+rd1AzfEMXlAC22FYwO1XkKR6NPsq7mUandH8oIRdZFw==}
+
+  '@emnapi/runtime@1.11.2':
+    resolution: {integrity: sha512-kyOl3X0DuTiT1h2ft8r2fYO8JYtU9a9Xis/zBSiGArNaagCOWx90N1k2wxp18czFDH+OgcWGb5ZP/XMt3dcyPA==}
 
   '@emnapi/wasi-threads@1.2.1':
     resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
@@ -6713,8 +6719,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  knip@6.24.0:
-    resolution: {integrity: sha512-PokLlgeEjLh1rAsB7ts+52wZ37HBr1nDhE6NNONwEaXdeZGCJOkP7ZlIAI2Gtu8xohquzTWy75bc/1diI9shQw==}
+  knip@6.27.0:
+    resolution: {integrity: sha512-CngYEYrD0n20N06FXA8n3u/0Wnnugoa+B9k14OP+iKIgkCHuzvIdsP3nfwjhByoc1WfogpxfiriMboAXFETDUw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -8619,8 +8625,8 @@ packages:
     engines: {node: '>=0.8.0'}
     hasBin: true
 
-  unbash@4.0.2:
-    resolution: {integrity: sha512-8gwNZ29+0/3zmXw7ToIHZtg6wK37xnniRUdBt7B27xZxaxfgR5tGMaGHT0t0dLtBV9fXE7zurh0s6Z1DHVjfWg==}
+  unbash@4.0.3:
+    resolution: {integrity: sha512-3cudTErfToSc4Ggv8XGXVNVli/xHKUtUZvaY5UVwhOcUPbQGz7PeaEnT/SAVgNziZtX67KEN9swMUYkLghxA1w==}
     engines: {node: '>=14'}
 
   unbox-primitive@1.1.0:
@@ -9538,6 +9544,12 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
+  '@emnapi/core@1.11.2':
+    dependencies:
+      '@emnapi/wasi-threads': 1.2.2
+      tslib: 2.8.1
+    optional: true
+
   '@emnapi/runtime@1.10.0':
     dependencies:
       tslib: 2.8.1
@@ -9549,6 +9561,11 @@ snapshots:
     optional: true
 
   '@emnapi/runtime@1.11.1':
+    dependencies:
+      tslib: 2.8.1
+    optional: true
+
+  '@emnapi/runtime@1.11.2':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -10373,8 +10390,8 @@ snapshots:
 
   '@napi-rs/wasm-runtime@0.2.11':
     dependencies:
-      '@emnapi/core': 1.11.1
-      '@emnapi/runtime': 1.11.1
+      '@emnapi/core': 1.11.2
+      '@emnapi/runtime': 1.11.2
       '@tybys/wasm-util': 0.9.0
     optional: true
 
@@ -10403,6 +10420,13 @@ snapshots:
     dependencies:
       '@emnapi/core': 1.11.1
       '@emnapi/runtime': 1.11.1
+      '@tybys/wasm-util': 0.10.3
+    optional: true
+
+  '@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
+    dependencies:
+      '@emnapi/core': 1.11.2
+      '@emnapi/runtime': 1.11.2
       '@tybys/wasm-util': 0.10.3
     optional: true
 
@@ -11464,14 +11488,14 @@ snapshots:
 
   '@rsdoctor/client@1.5.18': {}
 
-  '@rsdoctor/core@1.5.18(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(@rspack/core@2.1.3)':
+  '@rsdoctor/core@1.5.18(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@rspack/core@2.1.3)':
     dependencies:
       '@rsbuild/plugin-check-syntax': 1.6.1
       '@rsdoctor/graph': 1.5.18(@rspack/core@2.1.3)
       '@rsdoctor/sdk': 1.5.18(@rspack/core@2.1.3)
       '@rsdoctor/types': 1.5.18(@rspack/core@2.1.3)
       '@rsdoctor/utils': 1.5.18(@rspack/core@2.1.3)
-      '@rspack/resolver': 0.2.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@rspack/resolver': 0.2.8(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
       browserslist-load-config: 1.0.3
       es-toolkit: 1.49.0
       filesize: 11.0.22
@@ -11499,9 +11523,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.5.18(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(@rspack/core@2.1.3)':
+  '@rsdoctor/rspack-plugin@1.5.18(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@rspack/core@2.1.3)':
     dependencies:
-      '@rsdoctor/core': 1.5.18(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(@rspack/core@2.1.3)
+      '@rsdoctor/core': 1.5.18(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@rspack/core@2.1.3)
       '@rsdoctor/graph': 1.5.18(@rspack/core@2.1.3)
       '@rsdoctor/sdk': 1.5.18(@rspack/core@2.1.3)
       '@rsdoctor/types': 1.5.18(@rspack/core@2.1.3)
@@ -11666,9 +11690,9 @@ snapshots:
   '@rspack/resolver-binding-linux-x64-musl@0.2.8':
     optional: true
 
-  '@rspack/resolver-binding-wasm32-wasi@0.2.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
+  '@rspack/resolver-binding-wasm32-wasi@0.2.8(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -11683,7 +11707,7 @@ snapshots:
   '@rspack/resolver-binding-win32-x64-msvc@0.2.8':
     optional: true
 
-  '@rspack/resolver@0.2.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
+  '@rspack/resolver@0.2.8(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
     optionalDependencies:
       '@rspack/resolver-binding-darwin-arm64': 0.2.8
       '@rspack/resolver-binding-darwin-x64': 0.2.8
@@ -11691,7 +11715,7 @@ snapshots:
       '@rspack/resolver-binding-linux-arm64-musl': 0.2.8
       '@rspack/resolver-binding-linux-x64-gnu': 0.2.8
       '@rspack/resolver-binding-linux-x64-musl': 0.2.8
-      '@rspack/resolver-binding-wasm32-wasi': 0.2.8(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@rspack/resolver-binding-wasm32-wasi': 0.2.8(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
       '@rspack/resolver-binding-win32-arm64-msvc': 0.2.8
       '@rspack/resolver-binding-win32-ia32-msvc': 0.2.8
       '@rspack/resolver-binding-win32-x64-msvc': 0.2.8
@@ -15891,7 +15915,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  knip@6.24.0:
+  knip@6.27.0:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.5)
       formatly: 0.3.0
@@ -15903,7 +15927,7 @@ snapshots:
       smol-toml: 1.7.0
       strip-json-comments: 5.0.3
       tinyglobby: 0.2.17
-      unbash: 4.0.2
+      unbash: 4.0.3
       yaml: 2.9.0
       zod: 4.3.5(patch_hash=2bb6d33b2c713a7a2c559c18ad0aa6cfb261f01d935ee1288dfec6c84411aa76)
 
@@ -18338,7 +18362,7 @@ snapshots:
   uglify-js@3.19.3:
     optional: true
 
-  unbash@4.0.2: {}
+  unbash@4.0.3: {}
 
   unbox-primitive@1.1.0:
     dependencies:
